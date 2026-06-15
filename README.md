@@ -17,7 +17,8 @@ In short, the project demonstrates how much performance can be retained on GSM8K
 
 ### Research artifacts
 - **`HSMD___COLING (1).pdf`**  
-  Main paper/report describing the method, experiment setup, and final results for combining quantization + distillation.
+  Main paper/report describing the method, experiment setup, and final results for combining quantization + distillation.  
+  *(Note: this is the exact repository filename and intentionally includes triple underscores.)*
 - **`Algoverse Research proposal draft_.docx`**  
   Proposal/background document with motivation and planned approach for efficiency-focused LLM experiments.
 
@@ -29,9 +30,11 @@ In short, the project demonstrates how much performance can be retained on GSM8K
 
 ### Core experiment notebooks (`Code/`)
 - **`Updated Copy of HSMD Teacher.ipynb`**  
-  Primary teacher-model workflow for loading/evaluating the full model and generating teacher-side references.
+  Primary teacher-model workflow for loading/evaluating the full model and generating teacher-side references.  
+  **Use this as the default teacher notebook for new experiments.**
 - **`Copy of HSMD Teacher.ipynb`**  
-  Earlier teacher workflow variant (kept for comparison/reproducibility of prior runs).
+  Earlier teacher workflow variant (kept for comparison/reproducibility of prior runs).  
+  **Use mainly for historical comparison with prior outputs; prefer the updated teacher notebook for current work.**
 - **`Copy of HSMD Student`** *(notebook JSON file without `.ipynb` extension)*  
   Student distillation notebook variant with LoRA/fine-tuning workflow on GSM8K.
 - **`Copy of HSMD STUDENT 2.ipynb`**  
