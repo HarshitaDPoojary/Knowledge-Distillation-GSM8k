@@ -16,9 +16,8 @@ In short, the project demonstrates how much performance can be retained on GSM8K
 ## Repository guide (important files)
 
 ### Research artifacts
-- **`HSMD___COLING (1).pdf`**  
-  Main paper/report describing the method, experiment setup, and final results for combining quantization + distillation.  
-  *(Note: this is the exact repository filename and intentionally includes triple underscores.)*
+- **`HSMD_COLING.pdf`**  
+  Main paper/report describing the method, experiment setup, and final results for combining quantization + distillation.
 - **`Algoverse Research proposal draft_.docx`**  
   Proposal/background document with motivation and planned approach for efficiency-focused LLM experiments.
 
@@ -35,7 +34,7 @@ In short, the project demonstrates how much performance can be retained on GSM8K
 - **`Copy of HSMD Teacher.ipynb`**  
   Earlier teacher workflow variant (kept for comparison/reproducibility of prior runs).  
   **Use mainly for historical comparison with prior outputs; prefer the updated teacher notebook for current work.**
-- **`Copy of HSMD Student`** *(notebook JSON file without `.ipynb` extension)*  
+- **`Copy of HSMD Student.ipynb`**  
   Student distillation notebook variant with LoRA/fine-tuning workflow on GSM8K.
 - **`Copy of HSMD STUDENT 2.ipynb`**  
   Alternate student distillation notebook variant for iterative tuning/experimentation.
@@ -48,7 +47,7 @@ In short, the project demonstrates how much performance can be retained on GSM8K
 - **`Quanto-integration.ipynb`**  
   Tutorial-style notebook showing integration of `quanto` with `transformers` for lower-bit workflows.
 
-## Key reported results (from `HSMD___COLING (1).pdf`)
+## Key reported results (from `HSMD_COLING.pdf`)
 
 The PDF reports a direct comparison between a **pretrained quantized student** and a **distilled quantized student** on GSM8K:
 
