@@ -32,8 +32,7 @@ In short, the project demonstrates how much performance can be retained on GSM8K
   Primary teacher-model workflow for loading/evaluating the full model and generating teacher-side references.  
   **Use this as the default teacher notebook for new experiments.**
 - **`hsmd_teacher_legacy.ipynb`**  
-  Earlier teacher workflow variant (kept for comparison/reproducibility of prior runs).  
-  **Use mainly for historical comparison with prior outputs; prefer the updated teacher notebook for current work.**
+  Teacher workflow variant retained for comparison/reproducibility of prior runs.
 - **`hsmd_student_lora.ipynb`**  
   Student distillation notebook variant with LoRA/fine-tuning workflow on GSM8K.
 - **`hsmd_student_variant2.ipynb`**  
