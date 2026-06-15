@@ -28,23 +28,23 @@ In short, the project demonstrates how much performance can be retained on GSM8K
   GSM8K test split used for benchmark scoring and model comparison.
 
 ### Core experiment notebooks (`Code/`)
-- **`Updated Copy of HSMD Teacher.ipynb`**  
+- **`hsmd_teacher_primary.ipynb`**  
   Primary teacher-model workflow for loading/evaluating the full model and generating teacher-side references.  
   **Use this as the default teacher notebook for new experiments.**
-- **`Copy of HSMD Teacher.ipynb`**  
+- **`hsmd_teacher_legacy.ipynb`**  
   Earlier teacher workflow variant (kept for comparison/reproducibility of prior runs).  
   **Use mainly for historical comparison with prior outputs; prefer the updated teacher notebook for current work.**
-- **`Copy of HSMD Student.ipynb`**  
+- **`hsmd_student_lora.ipynb`**  
   Student distillation notebook variant with LoRA/fine-tuning workflow on GSM8K.
-- **`Copy of HSMD STUDENT 2.ipynb`**  
+- **`hsmd_student_variant2.ipynb`**  
   Alternate student distillation notebook variant for iterative tuning/experimentation.
 - **`meta_llama_3.ipynb`**  
   Quantized Llama experiment notebook with GSM8K-focused evaluation pipeline.
-- **`Instruct of meta_llama_3_instruct.ipynb`**  
+- **`meta_llama_3_instruct_experiment.ipynb`**  
   Instruction-style Llama experiment flow including quantization/inference setup.
-- **`Copy of Llama_3_1_8B_Instruct.ipynb`**  
+- **`llama_3_1_8b_instruct_baseline.ipynb`**  
   Minimal baseline inference notebook for quick model checks.
-- **`Quanto-integration.ipynb`**  
+- **`quanto_integration.ipynb`**  
   Tutorial-style notebook showing integration of `quanto` with `transformers` for lower-bit workflows.
 
 ## Key reported results (from `HSMD_COLING.pdf`)
